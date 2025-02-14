@@ -7,6 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="159dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="88dp"
+        android:onClick="onClickBatton2"
+        android:text="-"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,8 +37,8 @@
         android:id="@+id/button"
         android:layout_width="159dp"
         android:layout_height="77dp"
-        android:layout_marginEnd="124dp"
-        android:layout_marginBottom="224dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="208dp"
         android:onClick="onClickBatton"
         android:text="+"
         app:layout_constraintBottom_toBottomOf="parent"

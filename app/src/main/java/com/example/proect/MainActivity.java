@@ -30,4 +30,9 @@ public class MainActivity extends AppCompatActivity {
         TextView txt= findViewById(R.id.txtCounter);
         txt.setText(count.toString());
     }
+    public void onClickBatton2(View view) {
+        count--;
+        TextView txt = findViewById(R.id.txtCounter);
+        txt.setText(count.toString());
+    }
 }
